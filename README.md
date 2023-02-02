@@ -6,11 +6,14 @@ Simple front-end application that retrieve data from an API and show all the cli
 
 1- I started with the HTML architecture
 
-2- I fetched all the data from the API with Async Await Promises and I printed all the data to saw the result
+2- I fetched all the data from the API with Async Await Promises and I printed all the data to saw the result on the console
 
-3- I used some DOM manipulation to populate the frontend HTML
+3- I used Map and Set to find all the unique Sectors and I used a Foreach to loop through
+the total sectors and find all the percentages for each sector
 
-4- I added some basic styles with the CSS
+4- I used some DOM manipulation to populate the frontend HTML
+
+5- I added some basic CSS styles
 
 ## Considerations
 
