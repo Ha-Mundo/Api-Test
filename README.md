@@ -10,13 +10,13 @@ Simple front-end application that retrieve data from an API and show all the cli
 
 3- I used some DOM manipulation to populate the frontend HTML
 
-4- I put some basic styles with the CSS
+4- I added some basic styles with the CSS
 
 ## Considerations
 
 I decided to don't use any CSS pre-processor and any HTML, javaScrip framework cause we have just few line of code and could be confusing and less readable.
 
-## things to do
+## Things to do
 
 - Improve UI
 - Add error message on the UI
