@@ -3,10 +3,11 @@ const loadData = async () => {
     const url = `http://substantiveresearch.pythonanywhere.com/`;
     const res = await fetch(url);
     console.log(res.ok);
+    if (!res.ok) throw new Error(`Failed to fetch: ${res.status}`);
     const data = await res.json();
     return data;
   } catch (err) {
-    console.log(err);
+    console.log(`Error -> ${err}`);
   }
 };
 
